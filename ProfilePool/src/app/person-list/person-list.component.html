@@ -1,0 +1,28 @@
+<div class="card-deck">
+
+  <div class="card" *ngFor="let person of persons">
+    <div class="top-links">
+      <div class="card-link" (click)="editPerson(person)">Edit</div>
+      <div class="card-link"(click)="deletePerson(person)">Delete</div>
+    </div>
+
+    <div class="image-part">
+      <img class="card-img-left user-image" src="./../../assets/img_avatar.png" alt="User Image">
+    </div>
+    <div class="details-part">
+      <h5 class="card-title">{{person.name}}</h5>
+      <p class="card-text">{{person.email}}</p>
+    </div>
+  </div>
+
+  <div class="card custom-card">
+    <div class="custom-card-body">
+      <button class="btn" (click)="routeToPersonal()">
+        +
+        <div class="card-text">Add Family Member</div>
+      </button>
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,32 @@
+.personal-wrapper{
+    padding-top: 24px;
+    .heading{
+        background-color: #daebfe;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        display: inline-block;
+        padding: 5px;
+        padding-right: 25px;
+        margin-left: -15px;
+        font-weight: normal;
+    }
+    .form-group{
+        padding: 0 12px;
+        max-width: 300px;
+    }
+    .button-row{
+        margin-right: 50px;
+        justify-content: flex-end;
+    }
+    .form-button{
+        background-color: #4da1ff;
+        margin: 0 6px;
+        width: 100px;
+        border-radius: 3px;
+        font-size: 14px;
+    }
+
+    .form-control.ng-touched.ng-invalid{
+        border: 1px solid red;
+    }
+}

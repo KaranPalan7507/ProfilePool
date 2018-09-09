@@ -1,0 +1,38 @@
+nav{
+    border-bottom: 2px solid #e2effd;
+    box-shadow: 0 2px 2px 0 #f3f9ff, 0 0 0 1px #f3f9ff;
+    height: 50px;
+    justify-content: flex-start;
+    padding: 0px;
+}
+
+.nav-link{
+    padding: 0.5rem 1rem;
+    .number{
+        height: 28px;
+        width: 28px;
+        border-radius: 50%;
+        background-color: #bcc7cf;
+        color: white;
+        text-align: center;
+        margin-right: 6px;
+        line-height: 28px;
+        display: inline-block;
+    }
+    .name{
+        display: inline-block;
+        color: #222222; 
+    }
+    &.active{
+        border-bottom: 2px solid #5ba8ff;
+        margin-bottom: -6px;
+        .number{
+            background-color: #4ca0fe;
+        }
+        .name{
+            color: #8cc1fe;
+        }
+    
+    }
+}
+
