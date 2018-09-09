@@ -1,5 +1,14 @@
 # ProfilePool
 
+Profile Pool is a web app takes input from user and displays them in a desktop and mobile
+friendly way.
+
+User adds user details on the first tab and list them in second tab.
+
+This app demonstrates the simple CRUD operations in Angular, usage of angular services and Observable.
+
+The live version of this app can be accessed from https://karanpalan7507.github.io/ProfilePool
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
 
 ## Development server
